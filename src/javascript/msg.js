@@ -7,10 +7,10 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 		var msg = document.getElementById('msg').value;
 
 		// Cria a mensagem que será enviada via WhatsApp
-		var mensagemWhatsApp =  "Mensagem enviada Pelo Site (LINK) " + "%0ANome: " + nome /* + "%0AEmail: " + email*/ + "%0AMensagem: " + msg;
+		var mensagemWhatsApp =  "Mensagem enviada Pelo Site (https://dantonmeireles.github.io/Delicias-da-Lu/) " + "%0ANome: " + nome /* + "%0AEmail: " + email*/ + "%0AMensagem: " + msg;
 
 		// Número de telefone para o qual a mensagem será enviada (substitua pelo seu número)
-		var numeroWhatsApp = "5513982114996"; // Exemplo: 55 é o código do Brasil, 11 é o DDD e 999999999 é o número
+		var numeroWhatsApp = "5513997875870"; // Exemplo: 55 é o código do Brasil, 11 é o DDD e 999999999 é o número
 
 		// Gera o link do WhatsApp
 		var linkWhatsApp = "https://wa.me/" + numeroWhatsApp + "?text=" + mensagemWhatsApp;

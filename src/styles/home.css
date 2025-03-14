@@ -91,11 +91,13 @@
 	}
 
 	#banner img{
-		height: 50%;
+		margin-top: 0;
+		height: 900px;
 	}
 
 	#banner{
 		display: flex;
+		height: 900px;
 	}
 }
 
